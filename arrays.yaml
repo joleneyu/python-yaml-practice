@@ -1,0 +1,25 @@
+---
+ items: [ 1, 2, 3, 4, 5 ]
+ names: [ "one", "two", "three", "four" ]
+
+ numbers: 
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+ foo:
+  - one
+  - two
+  - three
+  - four
+
+# The multiple line format is useful for lists that contain complex objects instead of scalars.
+---
+ job: 
+  - things:
+      thing1: huey
+      thing2: dewey
+      thing3: louie
+  - other things:
+      key: value  
